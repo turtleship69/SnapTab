@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body>footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    cursor: pointer;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#result {
+    display: none;
+    margin-top: 20px;
+}
